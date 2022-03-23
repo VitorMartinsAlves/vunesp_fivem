@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.discordData{
+    width: 100vw;
+}
+
+header {
+    background-image: url('../assets/bg-header.jpg');
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+ul {
+    padding-top: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+ul img {
+    width: 160px;
+}
+
+form {
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 15px 10px 15px 20px;
+    width: 100%;
+    background-color: #dadada;
+    box-shadow: inset -1px 1px 1px #cacaca;
+    border: none;
+    color: #484e54;
+    font-style: italic;
+}
+
+span {
+    font-style: italic;
+    color: gray;
+    font-size: 11px;
+}
+
+.line {
+    border: 0.5px solid #E1E1E1;
+    border-radius: 5px;
+}
+
+.line3 {
+    border: 0.5px solid #E1E1E1;
+    border-radius: 5px;
+    width: 287px;
+    margin-left: 20px;
+}
+
+.line2 {
+    border: 0.5px solid #E1E1E1;
+    width: 750px;
+    border-radius: 5px;
+}
+
+.white {
+    background-color: white;
+}
+
+.info {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: #CF192E;
+    border: none;
+    color: white;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+article {
+    margin: auto;
+    padding: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article i, .title {
+    color: #E2610B;
+}
+
+.title {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.espaco {
+    padding-right: 10px;
+}
+
+.desc {
+    margin-top: 30px;
+    font-size: 16px;
+    width: 750px;
+}
+
+.aberto i {
+    color: green;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.edital {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 1165px;
+    height: 70px;
+    align-items: center;
+    align-content: center;
+    background-color: #E2610B;
+    color: white;
+    font-weight: 900;
+}
+
+.editalicon {
+    color: white;
+    width: 26px;
+}
+
+.registro {
+    background-color: white;
+    width: 470px;
+    border-radius: 3%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.registro img {
+    margin-top: 21px;
+    width: 320px;
+}
+
+.gray {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 330px;
+    background-color: #585858;
+}
+
+.bgfooter {
+    background-image: url('../assets/sitemap-header.jpg');
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+}
+
+.cinzaclaro {
+    padding-top: 40px;
+    height: 60px;
+    font-size: 12px;
+    background-color: #C9C9C9;
+}
+
+.center {
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.center a {
+    text-decoration: none;
+}
+
+.lightgray {
+    height: 70px;
+    background-color: #E7E7E7;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.final {
+    font-size: 12px
+}
+
+.card {
+    background-color: white;
+    width: 380px;
+    height: 451px;
+}
+
+.pader, .descinfo, .tituloinfo {
+    padding: 15px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    color: #E2610B
+}
+
+.tituloinfo .green {
+    color: green;
+}   
+
+.mais {
+    background-color: #E2610B;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+    width: 83px;
+    margin-left: 134px;
+    margin-top: 61px;
+}
+
+.mais2 {
+    margin-top: 105px;
+}
+.card a {
+    text-decoration: none;
+}
+
+.flexcard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -90px;
+}
+
+.padcard {
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+
+.red {
+    color: red;
+}
